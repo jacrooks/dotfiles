@@ -36,7 +36,6 @@ fi
 # append completions fo fpath
 fpath=(${ASDF_DIR}/completions $fpath)
 
-
 # Load starship prompt (config location: $HOME/.config/starship.toml)
 eval "$(starship init zsh)"
 

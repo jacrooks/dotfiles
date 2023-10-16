@@ -38,4 +38,5 @@ export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 # Nodejs history
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 
-
+# Starship prompt config path
+export STARSHIP_CONFIG="$XDG_CONFIG_HOME"/starship/starship.toml

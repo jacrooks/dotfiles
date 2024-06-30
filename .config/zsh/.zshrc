@@ -30,7 +30,8 @@ fi
 fpath=(${ASDF_DIR}/completions $fpath)
 
 
-# Load and initialise autocompletion system
+# Load and initialise autocompletion system (keep at end of file)
 # ------------------------------------------------------------------------------
 autoload -Uz compinit
 compinit
+

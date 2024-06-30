@@ -18,6 +18,13 @@ export STARSHIP_CACHE="$XDG_CACHE_HOME/starship/cache"
 export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
 
 
+# ASDF
+# ------------------------------------------------------------------------------
+export ASDF_CONFIG_FILE="$XDG_CONFIG_HOME/asdf/asdfrc"
+export ASDF_DIR="$XDG_DATA_HOME/asdf"
+export ASDF_DATA_DIR="$XDG_DATA_HOME/asdf"
+
+
 # Docker
 # ------------------------------------------------------------------------------
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"

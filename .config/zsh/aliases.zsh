@@ -1,5 +1,5 @@
 
-alias ls="ls --color=auto"
+alias ls="gls --color=auto --group-directories-first"
 alias l1="ls -F1"  #colwise version of ls
 alias l="ls -lFh"
 alias la="ls -lFha"

@@ -30,6 +30,12 @@ fi
 fpath=(${ASDF_DIR}/completions $fpath)
 
 
+# FZF
+# ------------------------------------------------------------------------------
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+
 # Load and initialise autocompletion system (keep at end of file)
 # ------------------------------------------------------------------------------
 autoload -Uz compinit

@@ -10,3 +10,6 @@ alias bc="bc -l"  #startup with math lib (mainly for float pt arith)
 
 alias printpath="echo $PATH | tr ':' '\n'"
 
+# Override vim cmd (type '\vim' to run vanilla vim)
+alias vim="nvim"
+

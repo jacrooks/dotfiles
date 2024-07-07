@@ -1,10 +1,17 @@
 
 palette = "catppuccin_mocha"
 
+[directory]
+truncation_symbol = ".../"
+
 [character]
 success_symbol = "[❯](bold green)"
 error_symbol = "[❯](bold red)"
 vimcmd_symbol = "[❮](bold green)"
+
+[python]
+python_binary = ["py"]
+detect_folders = [".venv"]
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"

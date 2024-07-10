@@ -20,6 +20,12 @@ plug "$HOME/.config/zsh/aliases.zsh"
 eval "$(starship init zsh)"
 
 
+# CDPATH setup
+# ------------------------------------------------------------------------------
+setopt auto_cd
+cdpath=($HOME)
+
+
 # Initialize asdf
 # ------------------------------------------------------------------------------ 
 if [ -f $HOME/.local/share/asdf/asdf.sh ]; then
@@ -36,7 +42,7 @@ fpath=(${ASDF_DIR}/completions $fpath)
 source <(fzf --zsh)
 
 
-# Load and initialise autocompletion system (keep at end of file)
+# Load and initialise shell autocompletion (keep at end of file)
 # ------------------------------------------------------------------------------
 autoload -Uz compinit
 compinit

@@ -2,4 +2,5 @@
 .zcompdump
 .zsh_history
 .config/zsh/.zsh_sessions/
+.config/tmux/plugins/
 

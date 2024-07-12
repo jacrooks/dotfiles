@@ -8,5 +8,6 @@ config.macos_window_background_blur = 30
 config.window_background_opacity = 0.90
 config.window_decorations = "RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
+config.window_padding = { bottom = "0px" }
 
 return config

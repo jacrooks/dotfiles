@@ -13,3 +13,4 @@ alias printpath="echo $PATH | tr ':' '\n'"
 # Override vim cmd (type '\vim' to run vanilla vim)
 alias vim="nvim"
 
+alias tm="tmux"

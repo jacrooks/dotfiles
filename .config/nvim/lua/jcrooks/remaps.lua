@@ -1,8 +1,6 @@
 -- Basic Keymaps
 -- ------------------------------------------------------------------------------
--- See kickstart.nvim for more info
-
-vim.opt.hlsearch = true
+-- Clear highlighted search
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 -- Diagnostic keymaps
@@ -28,13 +26,3 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper win
 -- Netrw
 vim.keymap.set("n", "<leader>x", ":Explore<CR>", { desc = "Open Netrw, full window" })
 vim.keymap.set("n", "<leader>lx", ":Lexplore<CR>", { desc = "Open Netrw, left window" })
-
--- Basic autocommands
--- Highlight when yanking (copying) text
-vim.api.nvim_create_autocmd("TextYankPost", {
-	desc = "Highlight when yanking (copying) text",
-	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
-	callback = function()
-		vim.highlight.on_yank()
-	end,
-})

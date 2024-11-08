@@ -24,6 +24,7 @@ vim.opt.inccommand = "split"
 vim.opt.cursorline = true
 vim.opt.scrolloff = 5
 vim.opt.wrap = false
+vim.opt.hlsearch = true
 
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4

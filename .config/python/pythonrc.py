@@ -1,6 +1,4 @@
-
-# Executes at python startup
-
+# Pythonrc (executes at python startup)
 
 import atexit
 import os
@@ -8,8 +6,7 @@ import readline
 from pathlib import Path
 
 
-# Redirect annoying python history in $HOME
-# Solution from xdg_ninja
+# Redirect annoying python history in $HOME (solution from xdg-ninja)
 # ------------------------------------------------------------------------------
 if readline.get_current_history_length() == 0:
 	data_home = os.environ.get("XDG_DATA_HOME")

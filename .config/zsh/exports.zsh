@@ -18,6 +18,11 @@ export STARSHIP_CACHE="$XDG_CACHE_HOME/starship/cache"
 export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
 
 
+# Python
+# ------------------------------------------------------------------------------
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc.py"
+
+
 # Matplotlib
 # ------------------------------------------------------------------------------
 export MPLCONFIGDIR="$XDG_CONFIG_HOME/matplotlib"

@@ -13,9 +13,14 @@ export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 export STARSHIP_CACHE="$XDG_CACHE_HOME/starship/cache"
 
 
-# Less (shell program)
+# Less (shell command)
 # ------------------------------------------------------------------------------
 export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
+
+
+# TLDR (shell command)
+#------------------------------------------------------------------------------
+export TLDR_CACHE_DIR="$XDG_CACHE_HOME/tldr"
 
 
 # Python

@@ -4,7 +4,9 @@ alias l1="ls -F1"  #colwise version of ls
 alias l="ls -lFh"
 alias la="ls -lFha"
 
-alias grep="grep --color"
+alias grep="ggrep"
+alias sed="gsed"
+alias awk="gawk"
 
 alias bc="bc -l"  #startup with math lib (mainly for float pt arith)
 

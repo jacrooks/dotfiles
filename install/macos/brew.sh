@@ -10,8 +10,9 @@ brew upgrade
 # Basic CLI cmds
 brew install coreutils  #GNU toolset (mac outdated)
 brew install findutils
-brew install gnu-sed
 brew install grep
+brew install gnu-sed
+brew install gawk
 brew install jq
 brew install tree
 brew install openssh

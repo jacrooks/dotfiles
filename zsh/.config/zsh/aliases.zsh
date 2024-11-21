@@ -8,6 +8,11 @@ alias grep="ggrep"
 alias sed="gsed"
 alias awk="gawk"
 
+alias gs="git status"
+alias gl="git log"
+alias ga="git add"
+alias gc="git commit"
+
 alias bc="bc -l"  #startup with math lib (mainly for float pt arith)
 
 alias printpath="echo $PATH | tr ':' '\n'"

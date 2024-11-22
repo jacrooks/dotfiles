@@ -9,7 +9,7 @@ alias sed="gsed"
 alias awk="gawk"
 
 alias gs="git status"
-alias gl="git log"
+alias gl="git log --all --graph --decorate" 
 alias ga="git add"
 alias gc="git commit"
 

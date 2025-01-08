@@ -35,7 +35,7 @@ export MPLCONFIGDIR="$XDG_CONFIG_HOME/matplotlib"
 
 # SQLite
 # ------------------------------------------------------------------------------
-export SQLITE_HISTORY="$XDG_CACHE_HOME"/sqlite_history
+export SQLITE_HISTORY="$XDG_CACHE_HOME/sqlite_history"
 
 
 # ASDF

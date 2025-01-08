@@ -33,6 +33,11 @@ export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc.py"
 export MPLCONFIGDIR="$XDG_CONFIG_HOME/matplotlib"
 
 
+# SQLite
+# ------------------------------------------------------------------------------
+export SQLITE_HISTORY="$XDG_CACHE_HOME"/sqlite_history
+
+
 # ASDF
 # ------------------------------------------------------------------------------
 export ASDF_CONFIG_FILE="$XDG_CONFIG_HOME/asdf/asdfrc"

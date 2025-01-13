@@ -38,6 +38,11 @@ export MPLCONFIGDIR="$XDG_CONFIG_HOME/matplotlib"
 export SQLITE_HISTORY="$XDG_CACHE_HOME/sqlite_history"
 
 
+# MySQL
+# ------------------------------------------------------------------------------
+export MYSQL_HISTFILE="$XDG_DATA_HOME"/mysql_history
+
+
 # ASDF
 # ------------------------------------------------------------------------------
 export ASDF_CONFIG_FILE="$XDG_CONFIG_HOME/asdf/asdfrc"

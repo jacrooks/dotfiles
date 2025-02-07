@@ -26,6 +26,7 @@ export TLDR_CACHE_DIR="$XDG_CACHE_HOME/tldr"
 # Python
 # ------------------------------------------------------------------------------
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc.py"
+export PYTHONPYCACHEPREFIX="$XDG_CACHE_HOME/python"
 
 
 # Matplotlib

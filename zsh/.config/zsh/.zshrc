@@ -28,12 +28,12 @@ cdpath=($HOME)
 
 # Initialize asdf
 # ------------------------------------------------------------------------------ 
-if [ -f $HOME/.local/share/asdf/asdf.sh ]; then
-	source $HOME/.local/share/asdf/asdf.sh
+if [ -f /opt/homebrew/bin/asdf ]; then
+	export PATH="${ASDF_DATA_DIR}/shims:$PATH"
 fi
 
 # append asdf completions to fpath
-fpath=(${ASDF_DIR}/completions $fpath)
+fpath=(${ASDF_DATA_DIR}/completions $fpath)
 
 
 # FZF

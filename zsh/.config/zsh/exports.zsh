@@ -46,8 +46,6 @@ export MYSQL_HISTFILE="$XDG_DATA_HOME"/mysql_history
 
 # ASDF
 # ------------------------------------------------------------------------------
-export ASDF_CONFIG_FILE="$XDG_CONFIG_HOME/asdf/asdfrc"
-export ASDF_DIR="$XDG_DATA_HOME/asdf"
 export ASDF_DATA_DIR="$XDG_DATA_HOME/asdf"
 
 
